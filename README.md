@@ -57,9 +57,9 @@ hadoop fs -cat output/part-r-00000
 ## Docker Setup Instructions
 
 1. **Download the Docker image uploaded on DockerHub:**
-   ```bash
-   docker pull liliasfaxi/spark-hadoop:hv-2.7.2
-   ```
+ ```bash
+ docker pull liliasfaxi/spark-hadoop:hv-2.7.2
+ ```
 2. **Create the three containers from the downloaded image:**
    To do this: 2.1. Create a network that will connect the three containers:
 
