@@ -35,3 +35,22 @@ To get started with this project, you will need to have Docker and Hadoop set up
 
 ```bash
 git clone https://github.com/abderrahmane-stack/Hadoop-WordCount.git
+```
+
+## Running the Application
+
+### Build the Project
+Make sure to build your project using Maven:
+```bash
+mvn clean install
+```
+Run the WordCount Job: Start your Hadoop cluster and run the WordCount job:
+
+```bash
+hadoop jar wordcount-1.jar tp1.WordCount input output
+```
+View the Output: Check the results of the WordCount job:
+
+```bash
+hadoop fs -cat output/part-r-00000
+```
